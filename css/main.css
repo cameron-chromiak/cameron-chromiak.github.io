@@ -2,14 +2,21 @@
   max-height: 175px;
 }
 .hero{
-  background-image: url("https://images.unsplash.com/photo-1526058932873-75b32245945c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+  /* background-image: url("https://wallpaperstudio10.com/static/wpdb/wallpapers/1920x1080/169322.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+  background: #00a8ff;
   height: 150vh;
+  padding-top: 40%;
 }
-
-
+.footer{
+  background: #00a8ff;
+}
+i{
+  text-decoration: none;
+  color: black;
+}
 @media only screen and (max-width: 767px) {
   .hero{
     background-size: cover;
