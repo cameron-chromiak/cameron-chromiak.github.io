@@ -13,7 +13,7 @@ $(document).ready(function(){
     // greeting
     //greeting
     const greetings = ['Hello', 'Hola', 'Namaskar', 'God dag', 'Bonjour', 'Shalom',
-    'Hallo', 'Zdravstvuyte', '你好']
+    'Hallo', '你好']
 
     setInterval(function () {
       $('#welcome').animate({opacity:0})
