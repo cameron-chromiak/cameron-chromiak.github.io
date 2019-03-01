@@ -2,9 +2,6 @@
   outline: none !important;
   border: none;
 }
-.navbar-toggler{
-  border: 2px;
-}
 .portfolio{
   min-height: 100vh;
 }
