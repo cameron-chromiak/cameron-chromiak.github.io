@@ -28,7 +28,7 @@
 </nav>
   <header>
     <div class="hero d-flex justify-content-center" id="hero">
-        <h1 class="display-2 text-white">Hello</h1>
+        <h1 class="display-2 text-white" id="welcome">Hello</h1>
     </div>
   </header>
   <!-- About Section -->
@@ -60,44 +60,39 @@
       <div class="row">
         <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
-            <img class="img-fluid" src="/img/node.png" alt="">
             <h3 class="h4 mb-2">Node.js</h3>
-            <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
+            <img class="img-fluid" src="/img/node.png" alt="">
+            <p class="text-muted mb-0"></p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
-            <img class="img-fluid" src="/img/express.jpeg" alt="">
             <h3 class="h4 mb-2">Express</h3>
-            <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
+            <img class="img-fluid" src="/img/express.jpeg" alt="">
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
             <h3 class="h4 mb-2">Mongo</h3>
             <img class="img-fluid" src="/img/MDB.png" alt="">
-            <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
-            <h3 class="h4 mb-2">React</h3>
             <img class="img-fluid" src="/img/react.png" alt="">
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <h3 class="h4 mb-2">React</h3>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
-            <h3 class="h4 mb-2">Python</h3>
             <img class="img-fluid" src="/img/python.png" alt="">
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <h3 class="h4 mb-2">Python</h3>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 text-center">
           <div class="mt-5">
-            <h3 class="h4 mb-2">JavaScript</h3>
             <img class="img-fluid" src="/img/js.png" alt="">
-            <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
+            <h3 class="h4 mb-2">JavaScript</h3>
           </div>
         </div>
       </div>
@@ -106,66 +101,61 @@
   <hr>
 
   <!-- Portfolio Section -->
-  <section id="portfolio">
-    <div class="container-fluid p-4  mb-5">
-      <div class="row ml-5">
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box">
-            <img class="img-fluid" src="https://cdn-01.independent.ie/incoming/article37845651.ece/3fa86/AUTOCROP/w620/ipanews_eb2d0131-199e-4a98-b468-b1110246cc69_1" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+  <div class="container-fluid mb-4 px-4 portfolio" id="portfolio">
+    <h2 class="text-center mt-4 p-4 text-left">Recent Projects</h2>
+    <div class="row col-md-12 mx-auto">
+      <div class="card-deck">
+        <div class="col-md-6 col-lg-4 col-xs-10">
+          <div class="card">
+            <img class="card-img-top" src="/img/env.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Timng</h4>
+              <p class="card-text">This is a CRUD application I did as a concept for a future project. It is a simple
+                scheduling interface.
+               </p>
+                <h5>Technologies</h5>
+                <p>MongoDB, ExpressJS, HTML, Bootstrap, JavaScript</p>
+                <p>See it live <a target='_blank' href="https://powerful-ridge-23520.herokuapp.com/">here</a></p>
+                <a class="mx-1" <a target='_blank' href="https://github.com/cameron-chromiak/perfect-timing"><i class="fab fa-2x fa-github"></i></a>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box">
-            <img class="img-fluid" src="https://cdn-01.independent.ie/incoming/article37845651.ece/3fa86/AUTOCROP/w620/ipanews_eb2d0131-199e-4a98-b468-b1110246cc69_1" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+        <div class="col-md-6 col-lg-4 col-xs-10">
+          <div class="card">
+            <img class="card-img-top" src="/img/trashy.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">A Trashy Game</h4>
+              <p class="card-text">A front end HTML and JavaScript game that teaches you where to put your trash. It was
+                dubbed "original" and I don't know, you could probably sell it to a school or something. Public schools are suckers
+                for games like this.
+               </p>
+                <h5>Technologies</h5>
+                <p>MongoDB, ExpressJS, HTML, Bootstrap, JavaScript</p>
+                <p>See it live <a href="http://leomin.co/a-trashy-game/">here</a></p>
+                <h6>In collaboration with</h6>
+                <a class="mx-1" <a target='_blank' href="https://github.com/vhickam">@vhickam</a>
+                <a class="mx-1"<a target='_blank' href="https://github.com/cameron-chromiak/a-trashy-game"><i class="fab fa-2x fa-github"></i></a>
             </div>
-          </a>
+          </div>
         </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box">
-            <img class="img-fluid" src="https://cdn-01.independent.ie/incoming/article37845651.ece/3fa86/AUTOCROP/w620/ipanews_eb2d0131-199e-4a98-b468-b1110246cc69_1" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
+        <!-- <div class="col-md-6 col-lg-4 col-xs-10">
+          <div class="card">
+            <img class="card-img-top" src="/img/env.png" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Timng</h4>
+              <p class="card-text">This is a CRUD application I did as a concept for a future project. It is a simple
+                scheduling interface.
+               </p>
+                <h5>Technologies</h5>
+                <p>MongoDB, ExpressJS, HTML, Bootstrap, JavaScript</p>
+                <p>See it live <a <a target='_blank' href="https://powerful-ridge-23520.herokuapp.com/">here</a></p>
+                <a class="mx-1" <a target='_blank' href="https://github.com/cameron-chromiak"><i class="fab fa-2x fa-github"></i></a>
             </div>
-          </a>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box">
-            <img class="img-fluid" src="https://cdn-01.independent.ie/incoming/article37845651.ece/3fa86/AUTOCROP/w620/ipanews_eb2d0131-199e-4a98-b468-b1110246cc69_1" alt="">
-            <div class="portfolio-box-caption">
-              <div class="project-category text-white-50">
-                Category
-              </div>
-              <div class="project-name">
-                Project Name
-              </div>
-            </div>
-          </a>
-        </div>
-  </section>
-
-  <section>
-
-  </section>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
   <!-- Footer -->
   <footer class="footer py-5">
     <div class="container  text-center">
@@ -175,7 +165,7 @@
         <a class="mx-1" href="https://www.instagram.com/and_then_theres_cam/"><i class="fab fa-2x fa-instagram"></i></a>
         <a class="mx-1" href="https://github.com/cameron-chromiak"><i class="fab fa-2x fa-github"></i></a>
       </div>
-      <div class="small text-center text-muted">Copyright &copy;2019 Cameron Chromiak</div>
+      <div class="small text-center text-muted">Copyright &copy;2019 Cameron Chromiak, Big Thanks to <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a></div>
     </div>
   </footer>
 
